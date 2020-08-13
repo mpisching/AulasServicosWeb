@@ -8,3 +8,5 @@
 /.mvn/
 /.jar/
 /build/
+
+/.metadata/
