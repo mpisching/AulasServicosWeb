@@ -1,0 +1,15 @@
+/* Adicionando margem para centralizar o conteúdo na tela */
+body {
+    background-color: #f0f8ff;
+}
+
+/* Customizações para o card */
+.card {
+    border-radius: 12px;
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+h2 {
+    color: #00796b;
+}

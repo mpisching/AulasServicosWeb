@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta de CEP - ViaCEP</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Consulta de CEP</h1>
+        <label for="cep">Digite o CEP:</label>
+        <input type="text" id="cep" maxlength="8" placeholder="Apenas números" required>
+
+        <button onclick="buscarCEP()">Consultar CEP</button>
+
+        <div class="result">
+            <h3>Dados do Endereço:</h3>
+            <p><strong>Logradouro:</strong> <span id="logradouro"></span></p>
+            <p><strong>Complemento:</strong> <span id="complemento"></span></p>
+            <p><strong>Bairro:</strong> <span id="bairro"></span></p>
+            <p><strong>Localidade:</strong> <span id="localidade"></span></p>
+            <p><strong>UF:</strong> <span id="uf"></span></p>
+            <p><strong>Estado:</strong> <span id="estado"></span></p>
+            <p><strong>Região:</strong> <span id="regiao"></span></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
