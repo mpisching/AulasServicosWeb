@@ -17,7 +17,7 @@ public class MoedaDataSource {
 	
 	public static Moeda get(String sigla) {
 		for (Moeda moeda: listaMoedas) {
-			if (moeda.getSigla().equalsIgnoreCase(sigla)) {
+			if (moeda.getSigla().equalsIgnoreCase(sigla)) { 
 			    return moeda;
 			}
 		}

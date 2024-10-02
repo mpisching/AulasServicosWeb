@@ -20,6 +20,11 @@ public class ProdutoController {
 		
 	
 		Produto produto = new Produto(id, nome, quantidade, preco, taxaLucro);
+		produto.setNome(nome);
+		
+		ProdutoDataSource pds = new ProdutoDataSource(); 
+		
+		pds.novo(produto);
 		
 		ProdutoDataSource.novo(produto);
 		

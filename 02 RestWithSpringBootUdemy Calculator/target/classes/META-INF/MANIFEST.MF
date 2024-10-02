@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Built-By: mpisching
+Build-Jdk: 11.0.7
+Implementation-Title: rest-with-springboot-udemy
+Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: br.com.erudio
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-boot
+ -starter-parent/rest-with-springboot-udemy
+Created-By: Maven Integration for Eclipse
+
